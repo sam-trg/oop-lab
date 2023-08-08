@@ -1,5 +1,5 @@
 package exercises;
-
+/* Search an element in a 1D array using linear search */
 import java.util.Scanner;
 
 public class Lab2aQ1 {

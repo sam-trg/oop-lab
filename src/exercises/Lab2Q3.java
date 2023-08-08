@@ -1,5 +1,5 @@
 package exercises;
-
+/* Print all the prime numbers in a given 1D array */
 import java.util.Scanner;
 
 public class Lab2Q3 {

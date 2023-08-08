@@ -1,5 +1,7 @@
 package exercises;
-
+/*Write a program that creates an integer array of length N, fills the array with the
+sequence of values (from 1 to N) using a for loop, and then loops through the array
+printing out the values. Use a for-each style for loop to print out the values */
 import java.util.Scanner;
 
 public class Lab2Q2 {

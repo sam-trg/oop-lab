@@ -1,8 +1,5 @@
-/*
-Write a method findSum to find the sum of digits of a number.
- */
 package exercises;
-
+/* Write a method findSum to find the sum of digits of a number */
 import java.util.Scanner;
 
 public class Lab1aQ2 {
