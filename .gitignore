@@ -5,3 +5,6 @@ build/classes/.netbeans_update_resources
 *.class
 *.mf
 *.properties
+.DS_Store
+src/exercises/.classpath
+src/exercises/.project
