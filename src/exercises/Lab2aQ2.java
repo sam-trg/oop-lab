@@ -4,7 +4,7 @@ package exercises;
  * Then initialize the array using nested for loops so that the value of A[i][j] is i+j. 
  * Finally, print out the array in a nice triangular form*/
 
-public class Lab2QaQ2 {
+public class Lab2aQ2 {
 	
 	public static void main(String[] args) {
 		
