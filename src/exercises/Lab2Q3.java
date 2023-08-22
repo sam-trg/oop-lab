@@ -1,11 +1,13 @@
 package exercises;
 /* Print all the prime numbers in a given 1D array */
+
 import java.util.Scanner;
 
 public class Lab2Q3 {
 
     public static boolean isPrime(int num) {
-        boolean isPrime = true;
+        
+    	boolean isPrime = true;
         for(int i = 2; i <= (int)Math.pow(num, 0.5); i++) {
             if (num%i==0) {
                 isPrime = false;
@@ -17,7 +19,8 @@ public class Lab2Q3 {
     }
     
     public static void main(String[] args) {    
-        int n;
+        
+    	int n;
 		System.out.print("Enter number of elements: ");
 		Scanner src = new Scanner(System.in);
 		n = src.nextInt();
@@ -30,5 +33,6 @@ public class Lab2Q3 {
 		for(int num: intArray) {
 		    if(isPrime(num)) {System.out.print(num + " ");}
         }
+		src.close();
     }
 }

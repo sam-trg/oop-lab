@@ -1,5 +1,6 @@
 package exercises;
 /* Find the addition of two matrices and display the resultant matrix  */
+
 import java.util.Scanner;
 
 public class Lab2Q4 {
@@ -42,5 +43,6 @@ public class Lab2Q4 {
 		    }
         System.out.print("\n");
         }
+        src.close();
 	}
 }

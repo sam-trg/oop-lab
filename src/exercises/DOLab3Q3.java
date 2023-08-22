@@ -3,7 +3,7 @@ package exercises;
 
 import java.util.Scanner;
 
-public class Lab3Q3 {
+public class DOLab3Q3 {
 
 	public static void main(String[] args) {
 		
@@ -24,7 +24,7 @@ class Mixer {
 		
 		//
 	
-		return //;
+		//return //;
 	}
 	
 	public void display() {

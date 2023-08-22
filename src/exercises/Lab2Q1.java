@@ -1,6 +1,7 @@
 package exercises;
 /*Write a program that creates an array of integers and then uses a for loop to reverse
 the order of the elements in the array */
+
 import java.util.Scanner;
 
 public class Lab2Q1 {
@@ -21,6 +22,7 @@ public class Lab2Q1 {
 		}
 		System.out.print("\n");
 		
+		src.close();
 		reverseList(intArray);
 
     }

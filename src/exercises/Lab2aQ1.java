@@ -1,5 +1,6 @@
 package exercises;
 /* Search an element in a 1D array using linear search */
+
 import java.util.Scanner;
 
 public class Lab2aQ1 {
@@ -22,9 +23,10 @@ public class Lab2aQ1 {
 		
 		for(int i=0; i<n; i++) {
 			if(intArray[i]==key) {
-				System.out.println(key+ " found at " + i + "th index");
+				System.out.println(key+ " found at index " + i);
 			}
 		}
+		src.close();
 	}
 	
 }

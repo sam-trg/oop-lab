@@ -2,6 +2,7 @@ package exercises;
 /*a. Write a method fact to accept one integer parameter and to find the factorial of a
 given number.
 b. Using fact method, compute NCR in the mainmethod.*/
+
 import java.util.Scanner;
 
 public class Lab1Q3 {
@@ -25,5 +26,6 @@ public class Lab1Q3 {
             // nCr n!/r!(n-r)!
             nCr = fact(n)/(fact(r)*fact(n-r));
             System.out.println(nCr);
+            src.close();
     }
 }
