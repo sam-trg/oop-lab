@@ -8,3 +8,6 @@ build/classes/.netbeans_update_resources
 .DS_Store
 src/exercises/.classpath
 src/exercises/.project
+/bin/
+/.project
+/.classpath
