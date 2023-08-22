@@ -1,4 +1,7 @@
 package exercises;
+/* Define a Class STUDENT having following Members: sname, marks_array, total, avg and provide the following methods:
+assign(): to assign initial values to the STUDENT object display(): to display the STUDENT object
+compute(): to Compute Total, Average mark */
 
 public class Lab3Q1{
 	
