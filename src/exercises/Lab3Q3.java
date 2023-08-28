@@ -25,7 +25,7 @@ class Mixer {
 		
 		Scanner src = new Scanner(System.in);
 		int n, elem;
-		System.out.println("Enter the number of elements: ");
+		System.out.println("Enter the number of elements for this object: ");
 		n = src.nextInt();
 		arr = new int[n];
 		
@@ -71,6 +71,7 @@ class Mixer {
 	
 	public void display() {
 		
+		System.out.println("Int array attribute for this object: ");
 		for(int item: arr) {
 			System.out.print(item+" ");
 		}
