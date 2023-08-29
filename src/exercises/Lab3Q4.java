@@ -4,8 +4,7 @@ package exercises;
 • An integer for storing the top of stack (tos)
 Include methods for initializing tos, pushing an element to the stack and for popping an element from the stack.
  The push()method should also check for “stack overflow” and pop() should also check for “stack underflow”. 
- Use a display( ) method to display the contents of stack.
- */
+ Use a display( ) method to display the contents of stack. */
 
 import java.util.Scanner;
 

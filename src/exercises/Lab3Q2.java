@@ -2,7 +2,7 @@ package exercises;
 /* Define a class EMPLOYEE having following members: Ename, Eid, Basic, DA, Gross_Sal, Net_Sal and following methods:
 i) read(): to read N employee details
 ii) display(): to display employee details
-iii) compute_net_sal(): to compute net salary*/
+iii) compute_net_sal(): to compute net salary */
 
 import java.util.Scanner;
 

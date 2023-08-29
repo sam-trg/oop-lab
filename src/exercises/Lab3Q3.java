@@ -1,5 +1,5 @@
 package exercises;
-/*Define a class Mixer to merge two sorted integer arrays in ascending order */
+/* Define a class Mixer to merge two sorted integer arrays in ascending order */
 
 import java.util.Scanner;
 import java.util.Arrays;
