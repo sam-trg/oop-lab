@@ -1,4 +1,4 @@
-package exercises;
+package exercises.additional;
 /* Search an element in a 1D array using linear search */
 
 import java.util.Scanner;

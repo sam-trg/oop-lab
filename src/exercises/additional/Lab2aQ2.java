@@ -1,4 +1,4 @@
-package exercises;
+package exercises.additional;
 /* Write a program that creates a "triangular" two-dimensional array A of 10 rows. 
  * The first row has length 1, the second row has length 2, the third row has length 3, and so on. 
  * Then initialize the array using nested for loops so that the value of A[i][j] is i+j. 

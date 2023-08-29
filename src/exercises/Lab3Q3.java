@@ -52,6 +52,7 @@ class Mixer {
 			}
 		}
 		Arrays.sort(arr);
+		src.close();
 	}
 	
 	public Mixer mix(Mixer A) {

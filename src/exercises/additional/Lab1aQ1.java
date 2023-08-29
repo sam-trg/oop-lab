@@ -1,4 +1,4 @@
-package exercises;
+package exercises.additional;
 /*a. Write a method isPrime to accept one integer parameter and to check whether that
 parameter is prime or not.
 b. Using this method, generate first N prime numbers in the main method*/
