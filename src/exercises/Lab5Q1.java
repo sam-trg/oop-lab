@@ -98,4 +98,3 @@ class EMP {
 		System.out.println("Employee "+Eid+" "+Ename+" has net salary "+ Net_Sal + " and email " + Email);
 	}
 }
-	

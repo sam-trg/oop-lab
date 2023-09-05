@@ -6,5 +6,32 @@ package exercises;
  * Illustrate this. */
 
 public class Lab4Q4 {
+	
+	public static void main(String[] args) {
+		
+		Counter c1 = new Counter();
+		Counter c2 = new Counter();
+		Counter c3 = new Counter();
+		c2.showCount();
+		
+	}
+	
+}
 
+class Counter {
+	
+	static int count;
+	
+	Counter() {
+		
+		count++;
+		
+	}
+	
+	void showCount() {
+		
+		System.out.println(count+" objects have been created.");
+		
+	}
+	
 }

@@ -14,26 +14,33 @@ Illustrate all the constructors as well as all the methods by defining objects.*
 
 
 public class Lab4Q3 {
-
+	
+	public static void main(String[] args) {
+		
+		BankAccount acc1 = new BankAccount("Mahesh D.", 121111081, "Savings", 5000);
+		acc1.display();
+		acc1.deposit(189.57);
+		acc1.display();
+	}
+	
 }
 
 class BankAccount {
 	
 	BankAccount(){};
 	
-	BankAccount(String name, long accountNo, String type, double amount, float roi) {
+	BankAccount(String name, long accountNo, String type, double amount) {
 		
 		depositorName = name;
 		accountNumber = accountNo;
 		accountType = type;
 		balance = amount;
-		rate = roi;
-	}
+	} 
 	
 	String depositorName;
 	long accountNumber;
 	double balance;
-	static float rate;
+	static float rate = 6;
 	String accountType;
 	
 	void deposit(double amt) {
@@ -53,6 +60,11 @@ class BankAccount {
 			System.out.println("Low balance. Cannot withdraw.");
 		}
 		
+	}
+	
+	void display() {
+		
+		System.out.printf("Account %d holder %s has balance %.2f in their %s account.\n", accountNumber, depositorName, balance, accountType);
 	}
 	
 	static float displayROI() {
