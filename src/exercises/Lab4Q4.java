@@ -12,6 +12,9 @@ public class Lab4Q4 {
 		Counter c1 = new Counter();
 		Counter c2 = new Counter();
 		Counter c3 = new Counter();
+		new Counter();
+		Counter c5,c6;
+		c5 = new Counter();
 		c2.showCount();
 		
 	}
