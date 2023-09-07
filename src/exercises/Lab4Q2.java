@@ -1,7 +1,7 @@
 package exercises;
 /* Consider the already defined EMPLOYEE class. Provide a default constructor, 
  * and parameterized constructor. Also provide a display method. 
- * Illustrate all the constructors as well as the display method by defining Time objects.*/
+ * Illustrate all the constructors as well as the display method by defining Time objects. */
 
 import java.util.Scanner;
 

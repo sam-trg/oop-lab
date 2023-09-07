@@ -10,7 +10,7 @@ Provide a default constructor and parameterized constructor to this class. Also 
 2. To withdraw amount after checking for minimum balance.
 3. To display all the details of an account holder.
 4. Display rate of interest (a static method)
-Illustrate all the constructors as well as all the methods by defining objects.*/
+Illustrate all the constructors as well as all the methods by defining objects. */
 
 
 public class Lab4Q3 {

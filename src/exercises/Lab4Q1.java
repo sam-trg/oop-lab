@@ -2,7 +2,7 @@ package exercises;
 /* Consider the already defined STUDENT class. 
  * Provide a default constructor and parameterized constructor to this class. 
  * Also provide a display method. Illustrate all the constructors as well as 
- * the display method by defining Complex objects.*/
+ * the display method by defining Complex objects. */
 
 
 public class Lab4Q1 {

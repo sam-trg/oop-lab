@@ -1,5 +1,5 @@
 package exercises;
-/*Write a program that creates an array of integers and then uses a for loop to reverse
+/* Write a program that creates an array of integers and then uses a for loop to reverse
 the order of the elements in the array */
 
 import java.util.Scanner;

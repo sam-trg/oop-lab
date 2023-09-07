@@ -1,7 +1,7 @@
 package exercises;
-/*a. Write a method fact to accept one integer parameter and to find the factorial of a
+/* a. Write a method fact to accept one integer parameter and to find the factorial of a
 given number.
-b. Using fact method, compute NCR in the mainmethod.*/
+b. Using fact method, compute NCR in the main method. */
 
 import java.util.Scanner;
 

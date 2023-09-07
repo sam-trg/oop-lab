@@ -1,7 +1,7 @@
 package exercises;
-/*a. Write a method reverse to accept one integer parameter and to return the reversed
+/* a. Write a method reverse to accept one integer parameter and to return the reversed
 digits of accepted number
-b. Using this method, check whether the inputted number is palindrome or not.*/
+b. Using this method, check whether the inputted number is palindrome or not. */
 
 import java.util.Scanner;
 
