@@ -7,20 +7,54 @@ b) removeWhitespace(): A method that removes any whitespace characters from the 
 c) List all the STUDENTS1 names containing a particular sub string.
 d) Sort the STUDENTS1 alphabetically */
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Scanner;
 
 public class Lab5Q2 {
 
 	public static void main(String[] args) {
 		
-		STUDENTS1 s1 = new STUDENTS1();
-
-		s1.sname = "Tarak Mehta";
-		s1.display();
+		Scanner src = new Scanner(System.in);
 		
-		STUDENTS1 s2 = new STUDENTS1();
+		System.out.print("Enter number of students: ");
 		
-		s2.sname = "Ishan Awasthi";
-		s2.display();
+		int num = src.nextInt();
+		src.nextLine();
+		STUDENTS1[] studentsArray = new STUDENTS1[num];
+		
+		for(int i=0; i<num; i++) {
+			
+			System.out.print("Enter student name: ");
+			studentsArray[i] = new STUDENTS1();
+			studentsArray[i].sname = src.nextLine();
+			
+		}
+		
+		System.out.println("Enter search term: ");
+		
+		String key;
+		
+		key = src.nextLine();
+		
+		String[] namesArray = new String[num];
+		
+		for(int i=0; i< num; i++) {
+			
+			namesArray[i] = studentsArray[i].sname;
+			
+		}
+		
+		Arrays.sort(studentsArray, Comparator.comparing(student -> student.sname));
+		
+		for(STUDENTS1 student: studentsArray) {
+			
+			if(student.sname.contains(key)) {
+				
+				System.out.println(student.sname);
+				
+			}
+		}
 	}
 }
 
@@ -28,8 +62,8 @@ class STUDENTS1 {
 	
 	
 	String sname, initials, nametext;
-
-		
+	
+	
 	public void extractInitials() {
 		
 		StringBuffer initialsMaker = new StringBuffer();
