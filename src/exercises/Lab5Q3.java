@@ -24,13 +24,15 @@ public class Lab5Q3 {
 
 	public static void main(String[] args) {
 		
-		pupil[] studentsArray = new pupil[2];
+		final int LEN = 2;
+		
+		pupil[] studentsArray = new pupil[LEN];
 		
 		Scanner src = new Scanner(System.in);
 		
 		String name, doj; short sem; float gpa,cgpa;
 		
-		for(int i=0; i<5; i++) {
+		for(int i=0; i<LEN; i++) {
 			
 			System.out.print("Enter name: ");
 			name = src.nextLine();
@@ -39,9 +41,11 @@ public class Lab5Q3 {
 			System.out.print("Enter sem number: ");
 			sem = src.nextShort();
 			System.out.print("Enter GPA: ");
-			gpa = src.nextInt();
+			gpa = src.nextFloat();
 			System.out.print("Enter CGPA: ");
-			cgpa = src.nextInt();
+			cgpa = src.nextFloat();
+			
+			src.nextLine(); // need to clear stray '/n''s from input buffer between subsequent uses of nextLine()
 			
 			DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 			LocalDate date = LocalDate.parse(doj, format);
@@ -75,9 +79,9 @@ class pupil {
 		count++;
 		fullName = name;
 		joiningDate = date;
-		sem = this.sem;
-		gpa = this.gpa;
-		cgpa = this.cgpa;
+		this.sem = sem;
+		this.gpa = gpa;
+		this.cgpa = cgpa;
 		int year = joiningDate.getYear();
 		year%=100;
 		String regNoMaker= ""+year+count;
@@ -87,7 +91,7 @@ class pupil {
 	
 	void display() {
 		
-		System.out.println(fullName+" "+regNo+" "+joiningDate+" "+sem+" "+gpa+" "+cgpa);
+		System.out.println("Student "+fullName+" reg no. "+regNo+" joined on "+joiningDate+" in Sem "+sem+" with GPA "+gpa+" and CGPA "+cgpa);
 		
 	}
 	

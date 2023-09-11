@@ -3,11 +3,14 @@ package exercises;
 a) Sort the student records with respect to semester and CGPA.
 b) Sort the student record with respect to name. */
 
+import java.util.Arrays;
+import java.util.Comparator;
 
-public class Lab5Q4 {
+public class Lab5Q4 extends Lab5Q3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		//Arrays.sort(Lab5Q3.studentsArray, Comparator.comparing(student -> student.sname));
 
 	}
 
