@@ -12,27 +12,29 @@ public class Lab5Q6 {
 
 	public static void main(String[] args) {
 		
+		System.out.print("Enter a number: ");
+		
 		Scanner src = new Scanner(System.in);
+		
 		String input = src.nextLine();
 		
 		StringBuilder answerMaker = new StringBuilder();
 		
-		int count=0;
-		StringBuilder inputFormatter = new StringBuilder();
+		StringBuilder inputFormatter = new StringBuilder(input);
+		
 		inputFormatter.reverse();
 		
-		for(char i : inputFormatter.toString().toCharArray()) {
+		for(int i = 0; i<inputFormatter.length(); i++) {
 			
-			if(count%3==0) {
-				answerMaker.append(',');
-			}
-			answerMaker.append(i);
-			count++;
+			if(i%3==0 && i!=0) answerMaker.append(',');
+			
+			answerMaker.append(inputFormatter.charAt(i));
 			
 		}
-
 		
-		String answer = answerMaker.reverse().toString();
+		answerMaker.reverse();
+		
+		String answer = answerMaker.toString();
 		
 		System.out.println(answer);
 		
