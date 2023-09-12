@@ -83,7 +83,7 @@ class pupil {
 		this.gpa = gpa;
 		this.cgpa = cgpa;
 		int year = joiningDate.getYear();
-		year%=100;
+		year%=100; //use StringBuilder to ensure last two digits are included i.e. 03 instead of just 3
 		String regNoMaker= ""+year+count;
 		regNo = Integer.valueOf(regNoMaker);
 				
