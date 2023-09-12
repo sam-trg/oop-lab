@@ -66,7 +66,7 @@ class STUDENTS1 {
 	
 	public void extractInitials() {
 		
-		StringBuffer initialsMaker = new StringBuffer();
+		StringBuilder initialsMaker = new StringBuilder();
 		String name = sname.toUpperCase();
 		String[] nameArr = name.split(" ");
 		for(String word: nameArr) {
