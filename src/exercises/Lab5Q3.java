@@ -67,8 +67,7 @@ public class Lab5Q3 {
 class pupil {
 	
 	static int count=0;
-	int regNo;
-	String fullName;
+	String fullName, regNo;
 	LocalDate joiningDate;
 	short sem;
 	float gpa, cgpa;
@@ -82,10 +81,11 @@ class pupil {
 		this.sem = sem;
 		this.gpa = gpa;
 		this.cgpa = cgpa;
-		int year = joiningDate.getYear();
-		year%=100; //use StringBuilder to ensure last two digits are included i.e. 03 instead of just 3
-		String regNoMaker= ""+year+count;
-		regNo = Integer.valueOf(regNoMaker);
+		String year = Integer.toString(joiningDate.getYear());
+		StringBuilder regMaker = new StringBuilder(year);
+		regMaker.delete(0, year.length()-2);
+		regMaker.append(count);
+		regNo = regMaker.toString();
 				
 	}
 	

@@ -37,7 +37,7 @@ class Mixer {
 			
 			
 			boolean isDuplicate = false;
-			for(int j=0; j<i; j++) {
+			for(int j=0; j<n; j++) {
 				if(arr[j]==elem) {
 					isDuplicate = true;
 					break;
@@ -52,7 +52,6 @@ class Mixer {
 			}
 		}
 		Arrays.sort(arr);
-		src.close();
 	}
 	
 	public Mixer mix(Mixer A) {
