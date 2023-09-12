@@ -57,7 +57,6 @@ class EMP {
 	
 	public void generateEmail() {
 		
-		Ename.toLowerCase();
 		String[] nameArr = Ename.split(" ");
 		char[] letterArr = nameArr[0].toCharArray();
 		Email = letterArr[0] + nameArr[nameArr.length -1] + "@company.com";
