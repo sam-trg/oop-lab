@@ -50,7 +50,7 @@ class BankAccount {
 		
 	}
 	
-	void withdraw(int debit) {
+	void withdraw(double debit) {
 		
 		System.out.println("Current balance is: "+balance);
 		if(debit>=balance) {
