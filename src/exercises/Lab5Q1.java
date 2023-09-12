@@ -33,8 +33,7 @@ class EMP {
 	
 	EMP(String name) {
 		
-		Ename = name;
-		Ename = Ename.toLowerCase();
+		Ename = name.toLowerCase();
 		generateEmail();
 		formatEmployeeName();
 		
